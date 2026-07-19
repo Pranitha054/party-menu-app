@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
-import {loginUser} from '../services/authApi'
+import {loginUser} from '../services/authAPI'
 import {saveToken} from '../utils/storage'
 import '../styles/Login.css'
 

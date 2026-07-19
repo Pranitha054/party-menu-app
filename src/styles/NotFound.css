@@ -1,0 +1,39 @@
+.notfound-container{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f8fafc;
+}
+
+.notfound-card{
+background:white;
+padding:50px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.notfound-card h1{
+font-size:90px;
+margin:0;
+color:#2563eb;
+}
+
+.notfound-card h2{
+margin:10px 0;
+}
+
+.notfound-card p{
+color:#64748b;
+margin-bottom:30px;
+}
+
+.home-btn{
+display:inline-block;
+text-decoration:none;
+background:#2563eb;
+color:white;
+padding:12px 22px;
+border-radius:8px;
+}

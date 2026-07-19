@@ -1,0 +1,226 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,sans-serif;
+}
+
+body{
+background:#0f1117;
+color:#fff;
+}
+
+.details-page{
+width:92%;
+max-width:1250px;
+margin:auto;
+padding:35px 0 60px;
+}
+
+.details-top{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:30px;
+}
+
+.back-link{
+text-decoration:none;
+color:#b8bccb;
+padding:12px 20px;
+border:1px solid #323544;
+border-radius:12px;
+transition:.3s;
+}
+
+.back-link:hover{
+border-color:#ff6b00;
+color:#fff;
+}
+
+.top-buttons{
+display:flex;
+gap:14px;
+}
+
+.saved-link{
+text-decoration:none;
+padding:12px 22px;
+border:1px solid #323544;
+border-radius:12px;
+color:#cfd2dd;
+transition:.3s;
+}
+
+.saved-link:hover{
+border-color:#ff6b00;
+}
+
+.save-btn{
+padding:12px 24px;
+border:none;
+border-radius:12px;
+background:#ff6b00;
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.save-btn:hover{
+background:#e65c00;
+}
+
+.saved-btn{
+padding:12px 24px;
+border:1px solid #3fbf7f;
+background:transparent;
+color:#3fbf7f;
+border-radius:12px;
+font-weight:600;
+cursor:pointer;
+}
+
+.hero-section{
+display:grid;
+grid-template-columns:1.1fr 1fr;
+gap:32px;
+align-items:flex-start;
+margin-bottom:40px;
+}
+
+.hero-image{
+width:100%;
+height:420px;
+object-fit:cover;
+border-radius:18px;
+}
+
+.hero-content{
+padding-top:10px;
+}
+
+.badge-row{
+display:flex;
+gap:12px;
+margin-bottom:18px;
+}
+
+.category-pill{
+padding:7px 14px;
+background:rgba(255,107,0,.15);
+color:#ff7a1a;
+border-radius:20px;
+font-size:13px;
+font-weight:700;
+text-transform:capitalize;
+}
+
+.veg-pill{
+padding:7px 14px;
+background:#163f2a;
+color:#9ef0be;
+border-radius:20px;
+font-size:13px;
+font-weight:700;
+}
+
+.nonveg-pill{
+padding:7px 14px;
+background:#5a1820;
+color:#ffb8b8;
+border-radius:20px;
+font-size:13px;
+font-weight:700;
+}
+
+.hero-content h1{
+font-size:52px;
+font-weight:700;
+margin-bottom:18px;
+}
+
+.people{
+font-size:20px;
+color:#b5b8c7;
+margin-bottom:25px;
+}
+
+.description{
+font-size:18px;
+line-height:1.9;
+color:#b5b8c7;
+}
+
+.ingredients-card{
+background:#1b1d25;
+border:1px solid #303442;
+border-radius:18px;
+padding:32px;
+}
+
+.ingredients-card h2{
+font-size:34px;
+margin-bottom:28px;
+}
+
+.ingredients-list{
+display:flex;
+flex-direction:column;
+gap:16px;
+}
+
+.ingredient-row{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#101216;
+border:1px solid #323544;
+padding:18px 22px;
+border-radius:12px;
+font-size:18px;
+}
+
+.ingredient-row span:first-child{
+font-weight:600;
+color:white;
+}
+
+.ingredient-row span:last-child{
+color:#b5b8c7;
+}
+
+@media(max-width:900px){
+
+.hero-section{
+grid-template-columns:1fr;
+}
+
+.hero-image{
+height:320px;
+}
+
+.details-top{
+flex-direction:column;
+gap:20px;
+align-items:flex-start;
+}
+
+.top-buttons{
+width:100%;
+justify-content:space-between;
+}
+
+.hero-content h1{
+font-size:38px;
+}
+
+.ingredients-card h2{
+font-size:28px;
+}
+
+.ingredient-row{
+font-size:16px;
+}
+
+}
